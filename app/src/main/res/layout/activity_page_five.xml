@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PageFive">
+
+    <ImageView
+        android:id="@+id/imgDreamHome"
+        android:layout_width="342dp"
+        android:layout_height="476dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.052"
+        app:srcCompat="@drawable/house"
+        tools:layout_editor_absoluteX="21dp" />
+
+    <TextView
+        android:id="@+id/tvHouse"
+        android:layout_width="362dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="8dp"
+        android:text="This is my dream house, I mean, look at how cool it looks."
+        android:textColor="#0C0C0C"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgDreamHome"
+        app:layout_constraintVertical_bias="0.327" />
+
+    <Button
+        android:id="@+id/btnLast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Previous"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvHouse" />
+</androidx.constraintlayout.widget.ConstraintLayout>
